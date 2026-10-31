@@ -1,0 +1,41 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep example environment configuration
+!.env.example
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Build files
+dist/
+build/
